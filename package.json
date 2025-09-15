@@ -1,0 +1,41 @@
+{
+  "name": "mohye-eldin-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Mohye Eldin Elsayed - Full Stack Developer & UI/UX Designer",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=.",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "developer",
+    "frontend",
+    "backend",
+    "fullstack",
+    "ui",
+    "ux",
+    "design"
+  ],
+  "author": "Mohye Eldin Elsayed",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohye-eldin/portfolio.git"
+  },
+  "homepage": "https://mohye-eldin.github.io/portfolio",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
